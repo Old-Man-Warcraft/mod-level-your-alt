@@ -1,0 +1,36 @@
+########################################
+# Level Your Alt Module Configuration
+########################################
+
+[worldserver]
+
+# Enable or disable the module entirely.
+# Default: 1 (enabled)
+LevelYourAlt.Enable = 1
+
+# Entry ID of the gossip NPC spawned in the world.
+# This must match the creature_template entry in mod_lya_npc.sql.
+# Default: 900001
+LevelYourAlt.NpcEntry = 900001
+
+# Enable or disable each boost tier.
+# Default: 1 (all enabled)
+LevelYourAlt.Allow60 = 1
+LevelYourAlt.Allow70 = 1
+LevelYourAlt.Allow80 = 1
+
+# Gold cost for each tier. 0 = free.
+# Default: 0 (free for all)
+LevelYourAlt.Cost60 = 0
+LevelYourAlt.Cost70 = 0
+LevelYourAlt.Cost80 = 0
+
+# If 1, items that do not fit in the player's bags are mailed to them.
+# If 0, overflow items are silently dropped and a notification is sent.
+# Default: 1
+LevelYourAlt.MailOverflowItems = 1
+
+# If 1, all weapon skills the character already knows are set to the
+# max value for their new level after a boost.
+# Default: 1
+LevelYourAlt.LearnWeaponSkills = 1
